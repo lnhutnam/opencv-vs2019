@@ -10,7 +10,7 @@ A Simple Guide to Install and Configure OpenCV with Visual Studio (19)
     ![Result](figs/extract_opencv_02.png)
 
 3. Create project and configuration <br>
-   First, you need to create Empty Project (C++) in Visual Studio.
+   First, you need to create Empty Project (C++) in Visual Studio.<br>
    ![](figs/figure_01.png)
 
    Create two folder: Dependencies and src in your project
@@ -18,7 +18,7 @@ A Simple Guide to Install and Configure OpenCV with Visual Studio (19)
    
    Right click project -> Properties -> General. <br>
    For output directory: $(SolutionDir)bin\$(Platform)\$(Configuration)\ <br>
-   For intermediate output directory: $(SolutionDir)bin\intermediates\$(Platform)\$(Configuration)\<br>
+   For intermediate output directory: $(SolutionDir)bin\intermediates\$(Platform)\$(Configuration)\ <br>
    For another option: C++ Langauge standard 14 or 17, etc
 
    ![](figs/figure_03.png)
